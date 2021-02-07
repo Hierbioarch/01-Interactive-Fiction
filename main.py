@@ -37,7 +37,7 @@ def update(current,choice,game_desc):
         if l["name"].lower() == choice:
             current = find_passage(game_desc, l["pid"])
             return current
-    print("I don't understand, Please try again.")
+    print("Stick to the story")
     return current
 
 def render(current):
@@ -48,7 +48,7 @@ def render(current):
 
 
 def get_input():
-    choice = input("What would you like to do? (type quit to exit) ")
+    choice = input("What will you do? (type quit to exit) ")
     choice = choice.lower().strip()
     return choice
 
@@ -65,7 +65,7 @@ def main():
         render(current)
         choice = get_input()
     
-    print("Thanks for playing!")
+    print("Thank you, come back soon")
 
 
 if __name__ == "__main__":

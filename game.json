@@ -1,277 +1,524 @@
 {
-    "passages": [
-      {
-        "text": "You open your eyes, you can hear rooster crows in the distance. You're comfortably resting in your bed. The sun is peaking through, illuminating your room. \n\n[[Get out of bed]] \n[[Fall back asleep]]",
-        "links": [
-          {
-            "name": "Get out of bed",
-            "link": "Get out of bed",
-            "pid": "2"
-          },
-          {
-            "name": "Fall back asleep",
-            "link": "Fall back asleep",
-            "pid": "3"
-          }
-        ],
-        "name": "Family cottage",
-        "pid": "1",
-        "position": {
-          "x": "3097",
-          "y": "1"
+  "passages": [
+    {
+      "text": "Welcome to the realm of Krolestwo, your story starts from the perspective of a young man. You were born in Wioska rowniny, the village of the plain. Which is also where you currently reside, in a family cottage. With your mother, father, younger brother, and sister. You have an older brother, but he's since left Wioska rowniny to travel to the capital. Wioska rowniny is a small farming village, surrounded by fields its residents mostly make their living through. The outskirts of the fields are surrounded by a tree line, which leads into a large, dense, forest. There is only one major road that goes in or out of Wioska rowniny, most villagers never leave beyond trading missions. Are you ready to begin your story?\n\n[[Yes->Bedroom]]\n[[Maybe->Precipice]]\n[[No->Quit]]",
+      "links": [
+        {
+          "name": "Yes",
+          "link": "Bedroom",
+          "pid": "2"
+        },
+        {
+          "name": "Maybe",
+          "link": "Precipice",
+          "pid": "3"
+        },
+        {
+          "name": "No",
+          "link": "Quit",
+          "pid": "4"
         }
-      },
-      {
-        "text": "You decide it's time to get up. You slip on some comfortable clothes. Your stomach is growling. \n[[Walk into kitchen]]\n[[Leave through window]]",
-        "links": [
-          {
-            "name": "Walk into kitchen",
-            "link": "Walk into kitchen",
-            "pid": "4"
-          },
-          {
-            "name": "Leave through window",
-            "link": "Leave through window",
-            "pid": "5"
-          }
-        ],
-        "name": "Get out of bed",
-        "pid": "2",
-        "position": {
-          "x": "2997",
-          "y": "208"
-        }
-      },
-      {
-        "text": "You decide it's to early to get up. Besides, who even wakes up at this time? You attempt to fall back asleep. However before you fall back asleep, your mother bangs on the door and demand you get up.\n[[Get out of bed]]",
-        "links": [
-          {
-            "name": "Get out of bed",
-            "link": "Get out of bed",
-            "pid": "2"
-          }
-        ],
-        "name": "Fall back asleep",
-        "pid": "3",
-        "position": {
-          "x": "3098",
-          "y": "110"
-        }
-      },
-      {
-        "text": "You walk into the kitchen, your mother is at the stove cleaning up. \"Good morning son, breakfast's on the table. Your father's already outside working the field.\" You sit at the table and eat your breakfast, sunny side up eggs, lightly salted. With a side of beef sausage. Afterwords you thank your mother and walk outside the front door. \n[[Walk through Village]]\n[[Go back inside]]",
-        "links": [
-          {
-            "name": "Walk through Village",
-            "link": "Walk through Village",
-            "pid": "6"
-          },
-          {
-            "name": "Go back inside",
-            "link": "Go back inside",
-            "pid": "7"
-          }
-        ],
-        "name": "Walk into kitchen",
-        "pid": "4",
-        "position": {
-          "x": "3104",
-          "y": "311"
-        }
-      },
-      {
-        "text": "You're upset you couldn't go back to sleep. You ignore your stomach and decide to get a jump start on your day. \n[[Walk through Village]] ",
-        "links": [
-          {
-            "name": "Walk through Village",
-            "link": "Walk through Village",
-            "pid": "6"
-          }
-        ],
-        "name": "Leave through window",
-        "pid": "5",
-        "position": {
-          "x": "3002",
-          "y": "311"
-        }
-      },
-      {
-        "text": "Walking along the the dirt road of your village you spot some neighbors and greet them. \"Good morning\" they reply. A row of similar looking straw thatched houses line the street you walk down. \n[[Village square]]",
-        "links": [
-          {
-            "name": "Village square",
-            "link": "Village square",
-            "pid": "8"
-          }
-        ],
-        "name": "Walk through Village",
-        "pid": "6",
-        "position": {
-          "x": "3102",
-          "y": "497"
-        }
-      },
-      {
-        "text": "You walk back inside your family cottage. Your mother has finished cleaning up and is getting ready to go out. \"Did you need something?\n[[Walk through Village]]",
-        "links": [
-          {
-            "name": "Walk through Village",
-            "link": "Walk through Village",
-            "pid": "6"
-          }
-        ],
-        "name": "Go back inside",
-        "pid": "7",
-        "position": {
-          "x": "3205",
-          "y": "397"
-        }
-      },
-      {
-        "text": "You reach the village square. You rest on the rim of a large fountain in the center. The mayoral manor, soldier barracks, announcement board, and merchant stalls surround the square. In the distance are familiar fields.\n[[Mayoral manor]]\n[[Soldier barracks]]\n[[Announcement board]]\n[[Merchant stalls]]\n[[Head towards the fields]] ",
-        "links": [
-          {
-            "name": "Mayoral manor",
-            "link": "Mayoral manor",
-            "pid": "10"
-          },
-          {
-            "name": "Soldier barracks",
-            "link": "Soldier barracks",
-            "pid": "11"
-          },
-          {
-            "name": "Announcement board",
-            "link": "Announcement board",
-            "pid": "12"
-          },
-          {
-            "name": "Merchant stalls",
-            "link": "Merchant stalls",
-            "pid": "13"
-          },
-          {
-            "name": "Head towards the fields",
-            "link": "Head towards the fields",
-            "pid": "9"
-          }
-        ],
-        "name": "Village square",
-        "pid": "8",
-        "position": {
-          "x": "3096",
-          "y": "604"
-        }
-      },
-      {
-        "text": "You decide you've seen enough of your village and head along the dirt path leading towards the fields. Along the way you see your father in the fields near your home and wave, your siblings are with him. You come to a fork in the road. \n[[Continue onto main road]]\n[[Break from path]] ",
-        "links": [
-          {
-            "name": "Continue onto main road",
-            "link": "Continue onto main road",
-            "pid": "14"
-          },
-          {
-            "name": "Break from path",
-            "link": "Break from path",
-            "pid": "15"
-          }
-        ],
-        "name": "Head towards the fields",
-        "pid": "9",
-        "position": {
-          "x": "3098",
-          "y": "711"
-        }
-      },
-      {
-        "text": "Approaching the manor, a large iron gate stands before you. A posted guard greets you \"Hello there lad, sorry, but the mayors busy today. Trying to come up with a plan to deal with the recent trouble.\" \n[[Village square]] ",
-        "links": [
-          {
-            "name": "Village square",
-            "link": "Village square",
-            "pid": "8"
-          }
-        ],
-        "name": "Mayoral manor",
-        "pid": "10",
-        "position": {
-          "x": "2883",
-          "y": "714"
-        }
-      },
-      {
-        "text": "Approaching the barracks, you see a guard sitting down yawning. He's probably been there all night. \"Sorry kid, can't let you any farther. You know the rules. Besides, we don't have time for a tour or anything today. Something big coming.\"\n[[Village square]] ",
-        "links": [
-          {
-            "name": "Village square",
-            "link": "Village square",
-            "pid": "8"
-          }
-        ],
-        "name": "Soldier barracks",
-        "pid": "11",
-        "position": {
-          "x": "2993",
-          "y": "713"
-        }
-      },
-      {
-        "text": "Posted by order of mayor Nicholas \nWarning: There have been reports of goblin sightings in the woods by hunters. Exercise extreme caution when traveling the outskirts. \nRecruitment: We're in need of more village guards, visit the local garrison barracks to inquire. \n[[Village square]] ",
-        "links": [
-          {
-            "name": "Village square",
-            "link": "Village square",
-            "pid": "8"
-          }
-        ],
-        "name": "Announcement board",
-        "pid": "12",
-        "position": {
-          "x": "3208",
-          "y": "710"
-        }
-      },
-      {
-        "text": "You leave your comfortable position atop the village square's fountain rim. As you approach the shopping district section of the square. You see a wide array of carts in rows, proclaiming their foods to passerbys. \n[[Village square]] ",
-        "links": [
-          {
-            "name": "Village square",
-            "link": "Village square",
-            "pid": "8"
-          }
-        ],
-        "name": "Merchant stalls",
-        "pid": "13",
-        "position": {
-          "x": "3322",
-          "y": "709"
-        }
-      },
-      {
-        "text": "Double-click this passage to edit it.",
-        "name": "Continue onto main road",
-        "pid": "14",
-        "position": {
-          "x": "3023",
-          "y": "861"
-        }
-      },
-      {
-        "text": "Double-click this passage to edit it.",
-        "name": "Break from path",
-        "pid": "15",
-        "position": {
-          "x": "3173",
-          "y": "861"
-        }
+      ],
+      "name": "Welcome",
+      "pid": "1",
+      "position": {
+        "x": "860",
+        "y": "398"
       }
-    ],
-    "name": "Village life",
-    "startnode": "1",
-    "creator": "Twine",
-    "creator-version": "2.3.11",
-    "ifid": "06D560BA-51FD-4D3B-B56A-7164404A9838"
-  }
-  
-  
+    },
+    {
+      "text": "You open your eyes, you're now in the form of a young man. You have sandy blonde hair and bright sapphire eyes. You stand about 6ft tall, and are about 17years old. The sun peers into your new bedroom through an upper window behind you. You can hear normal morning chatter in the distance, along with the sounds of roosters crowing. You hold up your hand over your face, getting comfortable with the idea of this new world you find yourself in. Suddenly theres a knock at the door \"Come on, get up, your father is already out in the fields with your siblings. You can't sleep all day.\" \n\nYour mother is on the otherside of your bedroom door. You should probably get up and start your day. \n\n[[Get up->Kitchen]]\n[[Sleep->Bedroom2]]",
+      "links": [
+        {
+          "name": "Get up",
+          "link": "Kitchen",
+          "pid": "5"
+        },
+        {
+          "name": "Sleep",
+          "link": "Bedroom2",
+          "pid": "6"
+        }
+      ],
+      "name": "Bedroom",
+      "pid": "2",
+      "position": {
+        "x": "860",
+        "y": "548"
+      },
+      "tags": [
+        "Family-Cottage",
+        "Wioska-rowniny"
+      ]
+    },
+    {
+      "text": "You stand at the Precipice between different dimensions of reality, you must decide whether you're ready to continue on your journey or not. Will you brave the trials ahead, or depart from this new world?\n\n[[Fine->Bedroom]] \n[[Pass->Quit]] ",
+      "links": [
+        {
+          "name": "Fine",
+          "link": "Bedroom",
+          "pid": "2"
+        },
+        {
+          "name": "Pass",
+          "link": "Quit",
+          "pid": "4"
+        }
+      ],
+      "name": "Precipice",
+      "pid": "3",
+      "position": {
+        "x": "740",
+        "y": "548"
+      }
+    },
+    {
+      "text": "You've decided to shy away from danger, to bid farewell before you've even started. Good luck",
+      "name": "Quit",
+      "pid": "4",
+      "position": {
+        "x": "980",
+        "y": "547"
+      }
+    },
+    {
+      "text": "You decide to get up after all. You pick through your closet until you find a comfortable pair of clothes that will get you through the day. You wander out of your bedroom and look around. This is the central living room of your family's cottage. Your mother is nearby, in front of a sink washing dishes. \"Finally you're up, hurry up and eat breakfast.\" You approach a large wooden table and sit down. Before you is a plate of fresh sunnyside up eggs and sausages. \n\n[[Eat->Kitchen2]]\n[[I'm not hungry->Kitchen3]]\n[[Is there anything else?->Kitchen4]]",
+      "links": [
+        {
+          "name": "Eat",
+          "link": "Kitchen2",
+          "pid": "8"
+        },
+        {
+          "name": "I'm not hungry",
+          "link": "Kitchen3",
+          "pid": "9"
+        },
+        {
+          "name": "Is there anything else?",
+          "link": "Kitchen4",
+          "pid": "10"
+        }
+      ],
+      "name": "Kitchen",
+      "pid": "5",
+      "position": {
+        "x": "860",
+        "y": "698"
+      },
+      "tags": [
+        "Family-Cottage",
+        "Wioska-rowniny"
+      ]
+    },
+    {
+      "text": "You've decided that your warm, comfy bed, is calling to you stronger then your mothers voice and shut your eyes. Before you know it you've fallen back asleep. \"Come on, get up!\" your eyes snap open, your mother has entered your bedroom and is now standing before you. She's wearing a long blue dress with an apron, she has her blonde hair up in a bun. She looks pretty annoyed at you. What will you do?\n\n[[I'm getting up->Kitchen]] \n[[Leave through the window->Dirt Road]]",
+      "links": [
+        {
+          "name": "I'm getting up",
+          "link": "Kitchen",
+          "pid": "5"
+        },
+        {
+          "name": "Leave through the window",
+          "link": "Dirt Road",
+          "pid": "7"
+        }
+      ],
+      "name": "Bedroom2",
+      "pid": "6",
+      "position": {
+        "x": "995",
+        "y": "699"
+      },
+      "tags": [
+        "Family-Cottage",
+        "Wioska-rowniny"
+      ]
+    },
+    {
+      "text": "After leaving, you take some time to look up and down your street. Many other cottages are lining the dirt road. \"Good morning\" a neighbor calls out to you, \"Good morning\" you call back. \n\n[[Continue to square->Village Square]]",
+      "links": [
+        {
+          "name": "Continue to square",
+          "link": "Village Square",
+          "pid": "12"
+        }
+      ],
+      "name": "Dirt Road",
+      "pid": "7",
+      "position": {
+        "x": "976",
+        "y": "1002"
+      },
+      "tags": [
+        "Wioska-rowniny",
+        "Village-Proper"
+      ]
+    },
+    {
+      "text": "You devour everything in front of you. The sausages are savory, with just the right amount of seasoning. The eggs are not too runny, with a dash of salt. After a good meal, you decide it's time to leave the house. \"Thank you mother, I'll be going now.\" \n\"Alright, say hi to your father if you get a chance. Also, don't get too close to the woods, there have been rumors of goblins in the woods recently. Please be careful.\" \n\n[[Leave->Dirt Road]]\n[[Goblins?->Kitchen5]]\n\n",
+      "links": [
+        {
+          "name": "Leave",
+          "link": "Dirt Road",
+          "pid": "7"
+        },
+        {
+          "name": "Goblins?",
+          "link": "Kitchen5",
+          "pid": "11"
+        }
+      ],
+      "name": "Kitchen2",
+      "pid": "8",
+      "position": {
+        "x": "710",
+        "y": "848"
+      },
+      "tags": [
+        "Family-Cottage",
+        "Wioska-rowniny"
+      ]
+    },
+    {
+      "text": "\"Really? You normally always eat your breakfast without much fuss. Are you feeling alright?\" You've still got a lot on your mind. Food just doesn't sound very appealing right now. \"I'm alright, I think I'm just going to head out.\" \n\"Alright, just be careful, there's been talk of goblins in the woods recently. Try to get something to eat in town too later then.\" \n\n[[Goblings?->Kitchen5]]\n[[Leave->Dirt Road]]",
+      "links": [
+        {
+          "name": "Goblings?",
+          "link": "Kitchen5",
+          "pid": "11"
+        },
+        {
+          "name": "Leave",
+          "link": "Dirt Road",
+          "pid": "7"
+        }
+      ],
+      "name": "Kitchen3",
+      "pid": "9",
+      "position": {
+        "x": "860",
+        "y": "848"
+      },
+      "tags": [
+        "Family-Cottage",
+        "Wioska-rowniny"
+      ]
+    },
+    {
+      "text": "You're not in the mood for eggs and sausage. But you're not quite sure what you do want. \"Is there anything else?\" \n\"Not right now, I'll be leaving for the market after you though. You need to learn to not be so picky, if you're hungry then eat.\"\n\n[[Eat->Kitchen2]]\n[[Not hungry->Kitchen3]]",
+      "links": [
+        {
+          "name": "Eat",
+          "link": "Kitchen2",
+          "pid": "8"
+        },
+        {
+          "name": "Not hungry",
+          "link": "Kitchen3",
+          "pid": "9"
+        }
+      ],
+      "name": "Kitchen4",
+      "pid": "10",
+      "position": {
+        "x": "1100",
+        "y": "848"
+      },
+      "tags": [
+        "Family-Cottage",
+        "Wioska-rowniny"
+      ]
+    },
+    {
+      "text": "\"Yes dear, goblins, we used to tell you kids stories about them when you were younger to encourage good behavior. Sometimes it's easy to take our safety here for granted, but they do exist, along with many other types of beings. You're already 17yrs old, you should know enough to be prepared to become a man. Like your older brother.\"\nYou look anxiously at your mother. \n\"Don't worry, just be careful and have your wits about you.\" \n\n[[I'll be going now->Dirt Road]]",
+      "links": [
+        {
+          "name": "I'll be going now",
+          "link": "Dirt Road",
+          "pid": "7"
+        }
+      ],
+      "name": "Kitchen5",
+      "pid": "11",
+      "position": {
+        "x": "710",
+        "y": "998"
+      },
+      "tags": [
+        "Family-Cottage",
+        "Wioska-rowniny"
+      ]
+    },
+    {
+      "text": "You continue walking along the path until you reach the village square. You rest on the rim of a large fountain in the center. The mayoral manor, barracks, announcement board, and merchant stalls surround the square. In the distance are familiar fields.\n\n[[Mayoral manor]]\n[[Barracks]]\n[[Announcement board]]\n[[Merchant stalls]]\n[[Head towards the fields->Main Road]] ",
+      "links": [
+        {
+          "name": "Mayoral manor",
+          "link": "Mayoral manor",
+          "pid": "13"
+        },
+        {
+          "name": "Barracks",
+          "link": "Barracks",
+          "pid": "14"
+        },
+        {
+          "name": "Announcement board",
+          "link": "Announcement board",
+          "pid": "15"
+        },
+        {
+          "name": "Merchant stalls",
+          "link": "Merchant stalls",
+          "pid": "16"
+        },
+        {
+          "name": "Head towards the fields",
+          "link": "Main Road",
+          "pid": "17"
+        }
+      ],
+      "name": "Village Square",
+      "pid": "12",
+      "position": {
+        "x": "898",
+        "y": "1153"
+      },
+      "tags": [
+        "Wioska-rowniny",
+        "Village-Proper"
+      ]
+    },
+    {
+      "text": "Approaching the manor, a large iron gate stands before you. A posted guard greets you \"Hello there lad, sorry, but the mayors busy today. Trying to come up with a plan to deal with the recent trouble.\" \n\n[[Village Square]] ",
+      "links": [
+        {
+          "name": "Village Square",
+          "link": "Village Square",
+          "pid": "12"
+        }
+      ],
+      "name": "Mayoral manor",
+      "pid": "13",
+      "position": {
+        "x": "678",
+        "y": "1302"
+      },
+      "tags": [
+        "Wioska-rowniny",
+        "Village-Proper"
+      ]
+    },
+    {
+      "text": "The barracks has a large iron gate surrounding its premises. Beyond is an open courtyard where you can see guards practicing hand-to-hand combat with one another. Some young recruits about your age are taking part in the training. The structures themselves are more of an interconnected complex. The main hall, then living chambers on one side, and the armory on the other. As you near the gate a guard approaches you \"Halt. State your business.\" \n\n[[I was just looking->Village Square]]\n[[I'd like to become a guard->Officers Quarters]]",
+      "links": [
+        {
+          "name": "I was just looking",
+          "link": "Village Square",
+          "pid": "12"
+        },
+        {
+          "name": "I'd like to become a guard",
+          "link": "Officers Quarters",
+          "pid": "19"
+        }
+      ],
+      "name": "Barracks",
+      "pid": "14",
+      "position": {
+        "x": "826",
+        "y": "1302"
+      },
+      "tags": [
+        "Wioska-rowniny",
+        "Village-Proper"
+      ]
+    },
+    {
+      "text": "Posted by order of mayor Nicholas \nWarning: There have been reports of goblin sightings in the woods by hunters. Exercise extreme caution when traveling the outskirts of Wioska rowniny\n. \nRecruitment: We require more village guards, visit your local garrison to inquire. \n\n[[Village Square]] ",
+      "links": [
+        {
+          "name": "Village Square",
+          "link": "Village Square",
+          "pid": "12"
+        }
+      ],
+      "name": "Announcement board",
+      "pid": "15",
+      "position": {
+        "x": "976",
+        "y": "1302"
+      },
+      "tags": [
+        "Wioska-rowniny",
+        "Village-Proper"
+      ]
+    },
+    {
+      "text": "You leave your comfortable position atop the village square's fountain rim. As you approach the shopping district section of the square. You see a wide array of carts in rows, proclaiming their goods to passerbys. \n\n[[Village Square]] ",
+      "links": [
+        {
+          "name": "Village Square",
+          "link": "Village Square",
+          "pid": "12"
+        }
+      ],
+      "name": "Merchant stalls",
+      "pid": "16",
+      "position": {
+        "x": "1126",
+        "y": "1302"
+      },
+      "tags": [
+        "Wioska-rowniny",
+        "Village-Proper"
+      ]
+    },
+    {
+      "text": "You decide you've seen enough of your village for today and head along the main road heading outside town. You look towards the fields surrounding your village and spot your father, younger brother, and sister with him. You exchange waves with them. \n\n[[Continue on main road->Main Road2]]\n[[Break from path->Fields]] ",
+      "links": [
+        {
+          "name": "Continue on main road",
+          "link": "Main Road2",
+          "pid": "18"
+        },
+        {
+          "name": "Break from path",
+          "link": "Fields",
+          "pid": "21"
+        }
+      ],
+      "name": "Main Road",
+      "pid": "17",
+      "position": {
+        "x": "894",
+        "y": "1433"
+      },
+      "tags": [
+        "Wioska-rowniny",
+        "Outskirts"
+      ]
+    },
+    {
+      "text": "As you continue along the main road the edge of the fields, and the tree line which borders it comes into view. There is a narrow clearing ahead where the path runs through the tree line. If you continue, you'll soon be beyond the borders of Wioska-rowniny. ",
+      "name": "Main Road2",
+      "pid": "18",
+      "position": {
+        "x": "985",
+        "y": "1578"
+      },
+      "tags": [
+        "Wioska-rowniny",
+        "Outskirts"
+      ]
+    },
+    {
+      "text": "The guard looks you up and down \"It's good to have another fresh face.\" The guard motions for you to follow. \"The mayor is worried the goblin sightings might be a sign of even more trouble to come. We're trying to bulk up our numbers just encase something serious might be headed here.\" He stops outside a door labeled \"Officer's quarters\" then ushers you in. \nA gruff man sitting at a desk scribbling on some documents greets you inside. \"Hello recruit, I'm captain Kowalski, more or less the commander of this garrison. Is it true you're wanting to enlist to protect Wioska-rowniny?\" \n\n[[Yes->Officers Quarters2]]\n[[I need to think about it->Village Square]]",
+      "links": [
+        {
+          "name": "Yes",
+          "link": "Officers Quarters2",
+          "pid": "20"
+        },
+        {
+          "name": "I need to think about it",
+          "link": "Village Square",
+          "pid": "12"
+        }
+      ],
+      "name": "Officers Quarters",
+      "pid": "19",
+      "position": {
+        "x": "766",
+        "y": "1439"
+      },
+      "tags": [
+        "Wioska-rowniny",
+        "Village-Proper"
+      ]
+    },
+    {
+      "text": "You inform captain Kowalski you're ready to enlist in the guard. \"Welcome aboard, I'm afraid we're short on beds at the moment in the recruit's quarters. You'll have to stay at your home in town then come here for training each day. If that'll be acceptable then we look forward to seeing you, starting next week. \n\n[[Yes sir->Village Square]]",
+      "links": [
+        {
+          "name": "Yes sir",
+          "link": "Village Square",
+          "pid": "12"
+        }
+      ],
+      "name": "Officers Quarters2",
+      "pid": "20",
+      "position": {
+        "x": "698",
+        "y": "1589"
+      },
+      "tags": [
+        "Wioska-rowniny",
+        "Village-Proper"
+      ]
+    },
+    {
+      "text": "You decide to straw from the main road. As you step into the fields, the familiar scent of wheat washes over you, their tall stocks brushing against you. There is a place near the outskirts that you used to go to as a child with your siblings to play. Will you visit it?\n[[Sounds fun->Fields2]]\n[[No->Main Road]]",
+      "links": [
+        {
+          "name": "Sounds fun",
+          "link": "Fields2",
+          "pid": "23"
+        },
+        {
+          "name": "No",
+          "link": "Main Road",
+          "pid": "17"
+        }
+      ],
+      "name": "Fields",
+      "pid": "21",
+      "position": {
+        "x": "848",
+        "y": "1583"
+      },
+      "tags": [
+        "Wioska-rowniny",
+        "Outskirts"
+      ]
+    },
+    {
+      "text": "Krolestwo. \nProduced by Kaliczak Games\nCreated by Alexander C. Kaliczak \n\n[[Start Journey]] ",
+      "links": [
+        {
+          "name": "Start journey",
+          "link": "Start Journey",
+          "pid": "1"
+        }
+      ],
+      "name": "Opening",
+      "pid": "22",
+      "position": {
+        "x": "856",
+        "y": "236"
+      }
+    },
+    {
+      "text": "A sea of gold envelops you as you trace your path from memory. You approach the tree line and notice the familiar fallen tree which marked the place. Was it always this close to the woods? You wonder to yourself, as you do, a flood of memories returns. Of your games often extending into the woods themselves, of why you three stopped coming here. \nIt wasn't just your mother and father who had spoken of goblins and other mysterious creatures beyond the borders of Wioska rowniny. Your older brother did as well, you'd often gather here with him to hear his scary stories. \nHow had you forgotten? When did you forget? It was years ago, something comes to you. You were all gathered here by the fallen tree, as you often did. Your older brother Krzysztof telling a story when you heard a rustling coming from the woods beyond you. You all stopped to gaze in the direction it originated. \nA gang of goblins came into view, sniffing around before meeting eyes with you and your siblings. Holding primative weapons, sharpened tree branches, stone axes, they rushed you. Grabbing hold of your younger brother. Krzysztof had pushed them away, freed him, and gathered you all to flee towards the village. \nThey hadn't followed you into the fields, only frowned and merged back into the woods. You'd told your parents, village elders, and anyone who would listen. But no one had believed you. How could you forget? This had been a turning point in convincing your older brother to leave here. To go into the capital to find a new life that might truly be safe, rather then provide. What he say as a false sense of security. \nA rustling coming from the woods snaps you out of the trip down memory lane. You see a group of goblins stairing at you, grinning wickedly from the woods. What will you do? ",
+      "name": "Fields2",
+      "pid": "23",
+      "position": {
+        "x": "848",
+        "y": "1733"
+      },
+      "tags": [
+        "Wioska-rowniny",
+        "Outskirts"
+      ]
+    }
+  ],
+  "name": "Krolestwo",
+  "startnode": "22",
+  "creator": "Twine",
+  "creator-version": "2.3.11",
+  "ifid": "3664C45C-3AA2-475D-9DEF-EC13D433565D"
+}
+
+
